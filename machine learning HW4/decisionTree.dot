@@ -1,0 +1,15 @@
+digraph Tree {
+0 [label="X[1] <= 466.5000\nmse = 0.039216467264\nsamples = 3141", shape="box"] ;
+1 [label="X[1] <= 225.5000\nmse = 0.0295857227315\nsamples = 1676", shape="box"] ;
+0 -> 1 ;
+2 [label="mse = 0.0173\nsamples = 812\nvalue = [ 0.48034698]", shape="box"] ;
+1 -> 2 ;
+3 [label="mse = 0.0332\nsamples = 864\nvalue = [ 0.35139985]", shape="box"] ;
+1 -> 3 ;
+4 [label="X[1] <= 791.5000\nmse = 0.0178979884133\nsamples = 1465", shape="box"] ;
+0 -> 4 ;
+5 [label="mse = 0.0192\nsamples = 1094\nvalue = [ 0.19924863]", shape="box"] ;
+4 -> 5 ;
+6 [label="mse = 0.0024\nsamples = 371\nvalue = [ 0.0745503]", shape="box"] ;
+4 -> 6 ;
+}
